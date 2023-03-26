@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fill the Dialog Boxes"
+                android:layout_gravity="center"
+                android:textSize="50px"
+                android:layout_marginTop="100px"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="food"
+                android:layout_marginTop="100px"
+                android:layout_marginRight="80px"
+                android:layout_marginLeft="80px"/>
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="passion"
+                android:layout_marginTop="200px"
+                android:layout_marginRight="80px"
+                android:layout_marginLeft="80px"/>
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="200px"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:layout_marginTop="500px"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
